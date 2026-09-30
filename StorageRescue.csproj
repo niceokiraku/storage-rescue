@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace>StorageRescue</RootNamespace>
+    <AssemblyName>StorageRescue</AssemblyName>
+    <Product>StorageRescue</Product>
+    <Description>障害 HDD 向け 再接続対応 ddrescue 互換ディスクイメージャ</Description>
+    <Authors>niceokiraku</Authors>
+    <Copyright>Copyright (c) 2026 niceokiraku</Copyright>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="app.ico" />
+  </ItemGroup>
+
+</Project>
